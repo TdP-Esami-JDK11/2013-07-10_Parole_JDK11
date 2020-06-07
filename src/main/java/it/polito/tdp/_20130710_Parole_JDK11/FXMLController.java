@@ -12,7 +12,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.paint.Color;
 
-//controller del turno 1 --> modificare per turno 2
+//controller del turno 2 --> passare al branch master_turno1 per turno 1
 
 public class FXMLController {
 	
@@ -50,14 +50,14 @@ public class FXMLController {
 
     @FXML
     void initialize() {
-        assert theRoot != null : "fx:id=\"theRoot\" was not injected: check your FXML file 'paroleT1.fxml'.";
-        assert txtResult != null : "fx:id=\"txtResult\" was not injected: check your FXML file 'paroleT1.fxml'.";
-        assert x1 != null : "fx:id=\"x1\" was not injected: check your FXML file 'paroleT1.fxml'.";
-        assert txtParolaIniziale != null : "fx:id=\"txtParolaIniziale\" was not injected: check your FXML file 'paroleT1.fxml'.";
-        assert txtParolaFinale != null : "fx:id=\"txtParolaFinale\" was not injected: check your FXML file 'paroleT1.fxml'.";
-        assert btnCerca != null : "fx:id=\"btnCerca\" was not injected: check your FXML file 'paroleT1.fxml'.";
-        assert txtLunghezza != null : "fx:id=\"txtLunghezza\" was not injected: check your FXML file 'paroleT1.fxml'.";
-        assert btnCarica != null : "fx:id=\"btnCarica\" was not injected: check your FXML file 'paroleT1.fxml'.";
+        assert theRoot != null : "fx:id=\"theRoot\" was not injected: check your FXML file 'paroleT2.fxml'.";
+        assert txtResult != null : "fx:id=\"txtResult\" was not injected: check your FXML file 'paroleT2.fxml'.";
+        assert x1 != null : "fx:id=\"x1\" was not injected: check your FXML file 'paroleT2.fxml'.";
+        assert txtParolaIniziale != null : "fx:id=\"txtParolaIniziale\" was not injected: check your FXML file 'paroleT2.fxml'.";
+        assert txtParolaFinale != null : "fx:id=\"txtParolaFinale\" was not injected: check your FXML file 'paroleT2.fxml'.";
+        assert btnCerca != null : "fx:id=\"btnCerca\" was not injected: check your FXML file 'paroleT2.fxml'.";
+        assert txtLunghezza != null : "fx:id=\"txtLunghezza\" was not injected: check your FXML file 'paroleT2.fxml'.";
+        assert btnCarica != null : "fx:id=\"btnCarica\" was not injected: check your FXML file 'paroleT2.fxml'.";
 
     }
 
